@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;    
+    background: rgb(51,43,55);
+    background: radial-gradient(circle, rgba(51,43,55,1) 0%, rgba(51,43,55,1) 100%);
+    width: 100%;
+    font-family: 'MedievalSharp', cursive;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    min-width: 300px;
+    max-height: 100vh;
+    padding: .5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+}
+
+.hero,
+.monster{
+    background: rgb(93, 92, 89);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 272px;
+    padding: .5rem;
+    margin: 0;
+    padding: .5rem;
+    border: 2px solid black;
+}
+
+.monster{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: .5rem;
+}
+
+.monster-img {
+    width: 40%;
+}
+
+.attack{
+    margin:2rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+
+.attack > button {
+    padding: 5px;
+}

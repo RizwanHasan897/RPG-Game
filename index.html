@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="script.css">
     <title>RPG GAME</title>
 </head>
 <body>
     <main>
-        <div id="hero">
-            <h1>Wizard</h1>
-            <img src="" alt="hero-img">
-            <div><p>Health: 50</p></div>
+        <div class="container">
+            <div id="hero" class="hero">
+                <h1>Wizard</h1>
+                <img src="image\wizard.jpg.jpg" alt="hero-img">
+                <div class="health">Health: 50</div>
+                <div class="attack">
+                    <button>Attack 1</button>
+                    <button>Attack 2</button>
+                    <button>Attack 3</button>
+
+                </div>
+            </div>
+
+            <div id="monster" class="monster">
+                <img class="monster-img" src="image\orc.jpg" alt="hero-img">
+                <div class="monster-info">
+                    <h1>ORC</h1>
+                    <div class="health">Health: 50</div>
+                </div>
+            </div>
+
+
+
         </div>
-        <div id="monster"></div>
-    </main>
-    <section>
-        <button>Attack</button>
-    </section>
-    
+    </main>    
 </body>
 </html>
